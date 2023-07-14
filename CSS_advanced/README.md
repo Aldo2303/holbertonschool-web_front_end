@@ -10,11 +10,11 @@ CSS works by:
 * applying a certain value
 
 ### Syntax
-element-selector {
- one-style-property: value;
- another-style-property: value;
-}
+element-selector {<br>
+ one-style-property: value;<br>
+ another-style-property: value;<br>
+}<br>
 
-A property + value is known as a “declaration”. Like this: text-align: center;
+A property + value is known as a “declaration”. Like this: text-align: center;<br>
 
 In general, and for readability purposes, we tend to put each declaration on separate lines like the example above. Some people argue that is better to put everything (element, property and value) in one line (when it has a single declaration), but you might need to add more declarations in the future. Also, placing each declaration on dedicated lines makes the code a lot easier to read and follow.
